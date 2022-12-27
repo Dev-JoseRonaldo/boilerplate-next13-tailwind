@@ -26,6 +26,7 @@
     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
   },
   "dependencies": {
+    "@storybook/storybook-deployer": "^2.8.16",
     "autoprefixer": "^10.4.13",
     "next": "13.0.6",
     "postcss": "^8.4.20",
