@@ -1,34 +1,107 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"> Boilerplate: Next.js 13 + Tailwind + Jest + Storybook </h1>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Dev-JoseRonaldo/boilerplate-next13-tailwind?color=#F7DD43">
 
-## Getting Started
+  <a href="https://github.com/Dev-JoseRonaldo/boilerplate-next13-tailwind/blob/main/LICENSE.md">
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/Dev-JoseRonaldo/boilerplate-next13-tailwind">
+  </a>
+  
+  <a href="https://github.com/Dev-JoseRonaldo/boilerplate-next13-tailwind/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Dev-JoseRonaldo/boilerplate-next13-tailwind">
+  </a>
+    
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
-First, run the development server:
+   <a href="https://github.com/Dev-JoseRonaldo/boilerplate-next13-tailwind">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/Dev-JoseRonaldo/boilerplate-next13-tailwind">
+  </a>
+</p>
+
+<br/>
+
+## 💻 Projeto
+
+Esse é um boilerplate que será usado para o desenvolvimento dos meus próximos projetos pessoais. Nele, imprementei as principais tecnologias e ferramentas que aprendi durante o tempo de estudo, criando um ambiente inicial de desenvolvimento padronizado, organizado e de fácil uso, podendo assim, iniciar rapidamente qualquer novo projeto, que use essas tecnologias, sem a necessidade de configura-las.
+
+---
+
+## 🚀 Tecnologias
+
+Esse setup inicial conta com as seguintes tecnologias:
+
+- [NextJS 13](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Storybook](https://storybook.js.org/)
+- [Plop](https://github.com/plopjs/plop)
+- [Husky](https://typicode.github.io/husky)
+- [Lint Staged](https://github.com/okonet/lint-staged)
+- [Commitlint](https://commitlint.js.org/#/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Github Actions](https://github.com/features/actions)
+
+
+## 👩🏽‍💻 Como usar ?
+
+### Pré-requisitos
+
+Antes de baixar o projeto você vai precisar ter instalado na sua máquina as seguintes ferramentas:
+
+* [Git](https://git-scm.com)
+* [NodeJS](https://nodejs.org/en/)
+* [Yarn](https://yarnpkg.com/) ou [NPM](https://www.npmjs.com/)
+
+### Usando o template
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Gerando um repositório a partir desse template
+  Clique no botão verde: "Use this template"
+  Clique em "Create a new repository"
+  
+# Clone o repositório gerado
+$ git clone git@github.com:yourUsername/yourRepository.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd yourRepository
+
+# Abra essa pasta em seu editor de texto favorito
+$ code .
+
+# Instale as dependências
+$ npm install
+  or
+$ yarn
+
+# Execute a aplicação web em modo de desenvolvimento
+$ npm run dev 
+  or 
+$ yarn dev
+
+# O aplicativo inciará na porta:3000 - acesse http://localhost:3000
+
+# Execute o storybook em modo de desenvolvimento
+$ npm run storybook or yarn storybook
+
+# O Storybook inciará na porta:6006 - acesse http://localhost:6006
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Comandos úteis
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- `dev`: Roda a aplicação em `localhost:3000`
+- `build`: Cria a versão de produção
+- `storybook`: Roda o Storybook em `localhost:6006`
+- `test`: Roda os testes de todos os componentes e páginas
+- `test --watch`: Roda os testes e continua assistindo modificações nos arquivos
+- `lint`: Executa o linter em todos os componentes e páginas
+- `generate`: Gera a estrutura de um novo componente
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 📝 Licença
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+  Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Dev-JoseRonaldo/ignite-feed/blob/main/LICENSE.md) para mais detalhes.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feito com ♥ by José Ronaldo :wave:
